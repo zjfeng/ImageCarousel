@@ -1,0 +1,52 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+}
+
+#box {
+	border: 1px solid #5E5E5E;
+	width: 450px;
+	height: 80px;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#left, #right {
+	display: block;
+	position: absolute;
+	z-index: 10;
+	opacity: 0;
+	width: 130px;
+	height: 80px;
+	background-color: #5E5E5E;
+}
+
+#left {
+	left: 0px;
+}
+
+#right {
+	right: 0px;
+}
+
+#left:hover, #right:hover {
+	opacity: 0.3;
+}
+
+#picScroll {
+	height: 80px;
+}
+
+#picScroll ul {
+	list-style: none;
+	height: 100%;
+	position: absolute;
+}
+
+#picScroll li {
+	float: left;
+	margin: 15px auto;
+	padding: 0px 10px;
+}
